@@ -10,7 +10,7 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
 
-# read data using pin 14
+# read data using pin 17
 instance = dht11.DHT11(pin=17)
 display = lcddriver.lcd()
 
